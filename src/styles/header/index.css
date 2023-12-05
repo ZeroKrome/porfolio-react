@@ -4,8 +4,19 @@ a {
 /* * {
   background: #323946;
 } */
-.traitgauche {
+/* .traitgauche {
   border-left: 1px solid black;
   padding-left: 5px;
   margin-left: 50px;
 }
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
+.rotate {
+  animation: rotate 2s infinite linear;
+} */

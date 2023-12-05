@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import MenuMobileOpen from "./lib/nav/menu-mobile-open.jsx";
 
 const Header = () => {
   return (
@@ -35,12 +36,13 @@ const Header = () => {
           </Link>
           <Link
             className="bg-sky-500 hover:bg-sky-700 rounded-lg w-20 text-center"
-            to="/contact"
+            to="mailto:kronnetv83390@gmail.com"
           >
             contact
           </Link>
         </ul>
       </nav>
+      <MenuMobileOpen width={"24px"} height={"24px"} colors={"#FFFFFF"} />
     </header>
   );
 };

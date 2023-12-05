@@ -1,6 +1,7 @@
-import classes from "../src/styles/card.css";
-
-const Card = (props) => {
-  return;
-};
-export default Card;
+export default function Card() {
+  return (
+    <div className="card">
+      <h1 className="text-center">Projet</h1>
+    </div>
+  );
+}

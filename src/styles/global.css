@@ -1,7 +1,7 @@
 @import url(./reset/);
 @import url(./header/);
 @import url(./footer/);
-
+@import url(./card/);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
